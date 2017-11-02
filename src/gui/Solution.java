@@ -6,12 +6,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Solution {
-    JButton btnAdd, btnSub, btnMul, btnDiv, btnSqrt;
-    JLabel lblNum1, lblNum2, lblRes;
-    JTextField txtFieldNum1, txtFieldNum2, txtFieldRes;
-    JPanel panel1, panel2, panel21, panel22, panel3;
-    JFrame frame;
-    double a, b;
+    private JButton btnAdd, btnSub, btnMul, btnDiv, btnSqrt;
+    private JLabel lblNum1, lblNum2, lblRes;
+    private JTextField txtFieldNum1, txtFieldNum2, txtFieldRes;
+    private JPanel panel1, panel2, panel21, panel22, panel3;
+    private JFrame frame;
+    private double a, b;
 
     public static void main(String[] args) {
         Solution solution = new Solution();
@@ -91,7 +91,7 @@ public class Solution {
 
     private void createFrame() {
         frame = new JFrame("Калькулятор");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
         frame.add(panel1, BorderLayout.NORTH);
         frame.add(panel2, BorderLayout.CENTER);

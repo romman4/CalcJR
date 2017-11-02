@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CalcJR:jar">
+    <output-path>$USER_HOME$/Documents/Рома/Программирование/Калькулятор</output-path>
+    <root id="archive" name="CalcJR.jar">
+      <element id="module-output" name="CalcJR" />
+    </root>
+  </artifact>
+</component>
